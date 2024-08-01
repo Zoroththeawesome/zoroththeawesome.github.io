@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" 
+            rel="stylesheet" crossorigin="anonymous"
+            integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3">
+        <meta charset="UTF-8">
+        <title>Jacob Stine's Portfolio</title>
+        <link href="CSS/styles.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            main {
+                display: flex;
+                flex-direction: column;
+                border: 2px solid black;
+                box-shadow: inset 0px 0px 20px 15px white;
+                border-radius: 10px;
+            }
+            div.container {
+                text-align: center;
+                
+            }
+            ul.myUL {
+                display: inline-block;
+                text-align: left;
+                margin: 0px;
+            }
+            p {
+                padding: 0px;
+            }
+            
+
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1 class="title">Jacob Stine's Portfolio</h1>
+            <nav>
+                <ul> 
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="resume.html">Resume</a></li><!--Add dropdown by resume with links to resume and education progress-->
+                    <li><a href="skill.html">Skill Demo's</a></li>
+                    <li>
+                        <a href="">Projects</a>
+                        <ul class="dropdown">
+                            <li><a href="writing.html">Writing</a></li>
+                            <li><a href="games.html">Games</a></li>
+                            <li><a href="mods.html">Mods</a></li>
+                            
+                        </ul>
+                    </li><!--Add Hobbies dropdown with options for my Games, Mods and Writing-->
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div style="display: flex; gap: 10px;">
+            <button type="button">
+                <a href="https://www.linkedin.com/in/jacob-stine-84538b172/" target="_blank"><img src="images/LinkedIn_logo.png" width="20px">LinkedIn</a>
+            </button>
+            <button type="button">
+                <a href="https://drive.google.com/file/d/115tIw7ua-5b374j8_9RKPLZ9UCgQnBm-/view?usp=sharing" width="20px" target="_blank">Resume PDF</a>
+            </button>
+        </div>
+        <main>
+            <h1 class="centered">Resume</h1>
+            <h2 class="centered">Professional Summary</h2>
+
+            <p id="resume">
+                Hardworking, dependable, and trustworthy individual looking to join a team with similar standards.<br>
+                My experience has taught me to always triple-check my work and to stay far ahead of schedule, 
+                adding me to <br> the team is sure to lead to improvements in the quality and timeline of future projects.
+            </p>
+
+            <h2 class="centered">Professional Experience</h2>
+            
+            <div class="container">
+                <h3 id="resume">Client Relations Manager, iWorQ Systems, Logan, Utah &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sep 2022 – January 2024</h3>
+                <ul class="myUL">
+                    <li>Provided client facing technical support via phone and email</li>
+                    <li>Cleaned customer data for import</li>
+                    <li>Wrote code for automatically calculating fees</li>
+                    <li>Built websites for client cities to facilitate online permitting and licensing</li>
+                    <li>Worked closely with the development team to resolve client reported bugs</li>
+                    <li>Interviewed, hired, and trained all new employees</li>
+                </ul>
+            </div>
+
+            <div class="container">
+                <h3 id="resume">General Partner, Schreiber Foods, Smithfield, Utah &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; April 2020 – October 2022</h3>
+                <ul class="myUL">
+                    <li>Use the database to pull and insert data relating to product production</li>
+                    <li>Operate all equipment and filled all positions within my department excluding one</li>
+                    <li>Train new hires to fill their positions</li>
+                </ul>
+            </div>
+
+            <div class="container">
+                <h3 id="resume">Heavy Equipment Technician, Century Equipment, Logan, Utah &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; June 2019 - March 2020</h3>
+                <ul class="myUL">
+                    <li>Recorded daily activities in a database for billing purposes</li>
+                    <li>Used a database to look up specs for equipment and parts</li>
+                    <li>Worked independently and with a team to fix construction equipment</li>
+                </ul>
+            </div>
+            
+
+            <h2  class="centered">Technical Skills</h2>
+            <div class="container">
+                <ul class="myUL">
+                    <li>Python</li>
+                    <li>SQL</li>
+                    <li>Tableau</li>
+                    <li>R</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Microsoft Office</li>
+                </ul>
+            </div>
+
+            <h2 class="centered">Leadership & Community Involvement</h2>
+            <div class="container">
+                <h3 id="resume">Eagle Scout, Boy Scouts of America, Moorhead, Minnesota &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nov 2015</h3>
+                <ul class="myUL">
+                    <li>Lead 100 volunteers to clean and photograph flat gravestones at Memorial Gardens Cemetery</li>
+                    <li>The data obtained was uploaded to a free online database for use in genealogy work Increasing the<br> 
+                        percentage of photographed and searchable plots by 42% in that area</li>
+                </ul>
+            </div>
+
+            <h2 class="centered">Education</h2>
+            <div class="container">
+                <h3 id="resume">Western Governors University, Remote &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; January 2024 - Present</h3>
+                <ul class="myUL">
+                    <li>Data Analytics, Bachelors</li>
+                    <li>Obtaining a deeper understanding of the development life cycle, computer networking, and<br>Infrastructure</li>
+                    <li>Developing advanced skills in programming languages SQL, Python, R, HTML, CSS, and JavaScript</li>
+                </ul>
+            </div>
+
+            <div class="container">
+                <h3 id="resume">New Apprenticeship, Data Analyst Learner, Remote &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; June 2022 – Aug 2022</h3>
+                <ul class="myUL">
+                    <li>Developed technical skills related to Statistics, SQL, and Tableau</li>
+                    <li>Analyzed datasets and applied skills to create reports and insights</li>
+                </ul>
+            </div>
+
+            <div class="container">
+                <h3 id="resume">Utah State University, Logan, Utah &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2020 - 2021</h3>
+                <ul class="myUL">
+                    <li>AAS - Business, Associate of Applied Sciences</li>
+                    <li>Obtained skills in accounting, excel, business management, business writing, and data analytics</li>
+                </ul>
+            </div>
+
+            <div class="container">
+                <h3 id="resume">Bridgerland Technical College, Logan, Utah &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2018 - 2019</h3>
+                <ul class="myUL">
+                    <li>Diesel Mechanics Technology/Technician, Certificate</li>
+                    <li>Further developed spatial reasoning and problem-solving skills</li>
+                    <li>Learned the art of teaching myself and taking charge of my education</li>
+                    <br><br>
+                </ul>
+            </div>
+            
+
+        </main>
+        <footer>
+            
+        </footer>
+
+    </body>
+</html>

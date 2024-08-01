@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" 
+            rel="stylesheet" crossorigin="anonymous"
+            integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3">
+        <meta charset="UTF-8">
+        <title>Jacob Stine's Portfolio</title>
+        <link href="CSS/styles.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <header>
+            <h1 class="title">Jacob Stine's Portfolio</h1>
+            <nav>
+                <ul> 
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="resume.html">Resume</a></li><!--Add dropdown by resume with links to resume and education progress-->
+                    <li><a href="skill.html">Skill Demo's</a></li>
+                    <li>
+                        <a href="">Projects</a>
+                        <ul class="dropdown">
+                            <li><a href="writing.html">Writing</a></li>
+                            <li><a href="games.html">Games</a></li>
+                            <li><a href="mods.html">Mods</a></li>
+                            
+                        </ul>
+                    </li><!--Add Hobbies dropdown with options for my Games, Mods and Writing-->
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            
+        </header>
+        <main>
+            <h1 class="centered">Connect with me!</h1>
+            <h2 class="centered">Note: Page under construction.</h2>
+
+            <div class="container text-center">
+                <form action="mailto:jacobalexanderstine@gmail.com" method="POST">
+
+                    <p><!--First Name-->
+                        <label for="first">First Name</label>
+                        <input type="text" name="first" id="first" placeholder="Required" required>
+                    </p>
+
+                    <p><!--Last Name-->
+                        <label for="last">Last Name</label>
+                        <input type="text" name="last" id="last" placeholder="Required" required>
+                    </p>
+
+                    <p><!--Email-->
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="name@domain.com" required>
+                    </p>
+
+                    <p><!--Phone-->
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" name="phone" id="phone" placeholder="(###) ###-####">
+                    </p>
+
+                    <p><!--Reason for reaching out drop down-->
+                        <label for="reason">Reason for reaching out</label>
+                        <select name="reason" id="reason">
+                            <option disabled selected value>-- select an option --</option>
+                            <option value="job-offer">Remote Work Job Offer</option>
+                            <option value="freelance">Freelance Work</option>
+                            <option value="writing">Discuss Writing Project</option>
+                            <option value="mod">Discuss Mod Project</option>
+                            <option value="game">Discuss Game Project</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </p>
+
+                    <p><!--Business name if applicable-->
+                        <label for="business">Business name if applicable</label>
+                        <input type="text" name="business" id="business" placeholder="Optional">
+                    </p>
+
+                    <p>
+                        <label for="duedate">If Freelance, desired finish date</label>
+                        <input type="date" name="duedate" id="duedate" min="today">
+                    </p>
+
+                    <p><!--Description of reason for reaching out-->
+                        <label for="description">Message</label>
+                        <textarea name="description" id="description" rows="4" cols="50" placeholder="Description of job offer or a comment about one of my projects?"></textarea>
+                    </p>
+
+                    <p>
+                        <input type="submit" value="Send Email">
+                    </p>
+
+                </form>
+            </div>
+            
+        </main>
+        <footer>
+
+        </footer>
+
+    </body>
+</html>
