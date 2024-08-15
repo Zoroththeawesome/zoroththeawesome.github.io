@@ -34,32 +34,31 @@
         </header>
         <main>
             <h1 class="centered">Connect with me!</h1>
-            <h2 class="centered">Note: Page under construction.</h2>
 
             <div class="container text-center">
-                <form action="mailto:jacobalexanderstine@gmail.com" method="POST">
+                <form action="https://formsubmit.co/c7827cf06ab1e5a314c8fcda312e6ca3" method="POST">
 
-                    <p><!--First Name-->
-                        <label for="first">First Name</label>
-                        <input type="text" name="first" id="first" placeholder="Required" required>
+                    <p class="text-center"><!--First Name-->
+                        <label for="first">*First Name</label>
+                        <input type="text" name="first" id="first" required>
                     </p>
 
-                    <p><!--Last Name-->
-                        <label for="last">Last Name</label>
-                        <input type="text" name="last" id="last" placeholder="Required" required>
+                    <p class="text-center"><!--Last Name-->
+                        <label for="last">*Last Name</label>
+                        <input type="text" name="last" id="last" required>
                     </p>
 
-                    <p><!--Email-->
-                        <label for="email">Email</label>
-                        <input type="email" name="email" id="email" placeholder="name@domain.com" required>
+                    <p class="text-center"><!--Email-->
+                        <label for="email">*Email</label>
+                        <input type="email" name="email" id="email" placeholder="Format: name@domain.com" required>
                     </p>
 
-                    <p><!--Phone-->
+                    <p class="text-center"><!--Phone-->
                         <label for="phone">Phone Number</label>
-                        <input type="tel" name="phone" id="phone" placeholder="(###) ###-####">
+                        <input type="tel" name="phone" id="phone" placeholder="Format: (###) ###-####">
                     </p>
 
-                    <p><!--Reason for reaching out drop down-->
+                    <p class="text-center"><!--Reason for reaching out drop down-->
                         <label for="reason">Reason for reaching out</label>
                         <select name="reason" id="reason">
                             <option disabled selected value>-- select an option --</option>
@@ -72,22 +71,22 @@
                         </select>
                     </p>
 
-                    <p><!--Business name if applicable-->
+                    <p class="text-center"><!--Business name if applicable-->
                         <label for="business">Business name if applicable</label>
-                        <input type="text" name="business" id="business" placeholder="Optional">
+                        <input type="text" name="business" id="business">
                     </p>
 
-                    <p>
+                    <p class="text-center">
                         <label for="duedate">If Freelance, desired finish date</label>
                         <input type="date" name="duedate" id="duedate" min="today">
                     </p>
 
-                    <p><!--Description of reason for reaching out-->
-                        <label for="description">Message</label>
-                        <textarea name="description" id="description" rows="4" cols="50" placeholder="Description of job offer or a comment about one of my projects?"></textarea>
+                    <p class="text-center"><!--Description of reason for reaching out-->
+                        <label for="description">*Message</label>
+                        <textarea name="description" id="description" rows="4" cols="50" placeholder="Description of job offer or a comment about one of my projects?" Required></textarea>
                     </p>
 
-                    <p>
+                    <p class="text-center">
                         <input type="submit" value="Send Email">
                     </p>
 
